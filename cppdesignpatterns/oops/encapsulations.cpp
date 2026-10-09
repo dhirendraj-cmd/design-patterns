@@ -1,4 +1,4 @@
-// encapsulation is a way of hiding sensitive members of a class which cannot be exposed directly to prevent any misuse
+// encapsulation is a way of hiding sensitive members of a class which cannot be exposed directly to prevent any misuse, itt basically focuses on security 
 
 #include <iostream>
 #include <string>
