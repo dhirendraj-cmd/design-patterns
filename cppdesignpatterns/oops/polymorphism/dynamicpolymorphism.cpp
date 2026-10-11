@@ -9,6 +9,7 @@ class Shape{
     public:
         virtual void area()=0;
         virtual void perimiter()=0;
+        virtual ~Shape() {}; // this is virtual destructor
 };
 
 
