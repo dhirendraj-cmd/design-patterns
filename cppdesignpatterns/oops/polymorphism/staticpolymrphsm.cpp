@@ -33,5 +33,7 @@ int main(){
     anm = new Animal("Duck");
     anm->run(2);
 
+    delete anm;
+
     return 0;
 }

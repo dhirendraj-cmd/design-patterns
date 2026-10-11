@@ -64,6 +64,8 @@ int main(){
     s->area();
     s->perimiter();
 
+    delete s;
+
     return 0;
 }
 
