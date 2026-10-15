@@ -1,0 +1,21 @@
+SOLID Prinicples
+=============================================================
+
+S: Single Responsisbility Principle (SRP)
+SRP says that A class should have only one reason to change or its main functionality is to do only one thing. 
+
+Example:
+Suppose we create a class for shopping cart. 
+This class is having below functions:
+    - CalculatePrice()
+    - PrintInvoice()
+    - sendMail()
+
+Then this class is violating the SRP because it instead of one functionality its doing 3 i.e. it is calculating price but at the same time also printing invoice and also sending mail, which is beyond the scope of this class. So it should perform only one functionality.  The main aim of shopping cart is to calculate the prices of added items. so it should focus on that, not on sending mail and printing invoice.
+
+Note: Doing just one functionality doesn't mean that there will be only one fucntion in class, there can be many function but all should together dedicated towards performing one task.
+
+
+=============================================================
+O: Open Closed Principle (OCP)
+
