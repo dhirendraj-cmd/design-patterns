@@ -17,6 +17,7 @@ Note: Doing just one functionality doesn't mean that there will be only one fucn
 
 
 =============================================================
+
 O: Open Closed Principle (OCP)
 - OCP says A class should be open for extensions but not for modifications, extension simply means adding new features but for adding features, older code should not be changed/modified.
 - To achieve OCP we normally use inheritance, abstraction and polymorphism combination.
@@ -27,6 +28,7 @@ Suppose you already have a SaveToDB class and currently this class is saving in 
 
 
 ==============================================================
+
 L: Liskov Substituion Principle(LSP):
 - LSP says a subclass i.e a child class should be substitutable for their parent class.
 - Suppose A is base class and B is child class and there is a client class which is expecting reference of parents i.e A class but instead we pass B class reference than also it should be able to accept it without causing any issue.
@@ -58,11 +60,13 @@ LSP has certain Rules.
 
 
 ==============================================================
+
 I: Interface Segregation Principle(ISP):
 ISP says instead of having one general purpose interface better to have multiple interfaces and a child should not be forced to implement method they don't need.
 
 
 ==============================================================
+
 D: Dependency Inverson Principle(DIP):
 High Level module should not depend on low level module instead both should depend on abstraction.
 If OCP is the target than DIP is the solution.
