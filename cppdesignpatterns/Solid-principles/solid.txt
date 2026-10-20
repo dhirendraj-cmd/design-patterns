@@ -18,4 +18,12 @@ Note: Doing just one functionality doesn't mean that there will be only one fucn
 
 =============================================================
 O: Open Closed Principle (OCP)
+- OCP says A class should be open for extensions but not for modifications, extension simply means adding new features but for adding features, older code should not be changed/modified.
+- To achieve OCP we normally use inheritance, abstraction and polymorphism combination.
+- Main thing is in OCP we create abstract/interface class and then achieve the OCP.
+
+Example:
+Suppose you already have a SaveToDB class and currently this class is saving in sql db, now the requirement comes to save in nosql db like dynamodb in that case we have to create another function in the class, so now the main class has been modified which viotlates OCP. so to achieve ocp we can create an Abstract DBPersistance class and that class is extended by sql and nosql classes to save in db.
+
+
 
